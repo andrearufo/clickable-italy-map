@@ -1,0 +1,17 @@
+.italia{
+	text-align: center;
+	margin-top:  $spacer;
+
+	svg{
+		height: 400px;
+
+		path{
+			fill: $gray-600;
+			cursor: pointer;
+
+			&:hover{
+				fill: red;
+			}
+		}
+	}
+}

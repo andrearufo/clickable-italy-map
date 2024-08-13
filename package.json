@@ -1,21 +1,22 @@
 {
-  "name": "clickable-italy-map",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://andrearufo@github.com/andrearufo/clickable-italy-map.git",
-  "author": "andrearufo <info@andrearufo.it>",
+  "name": "vue-italy-map",
+  "version": "2.0.0",
+  "main": "src/main.js",
+  "repository": "https://andrearufo@github.com/andrearufo/vue-italy-map.git",
+  "author": "andrearufo <a.rufo@axio.studio>",
   "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "autoprefixer": "^9.7.4",
-    "browser-sync": "^2.26.7",
-    "cssnano": "^4.1.10",
-    "fancy-log": "^1.3.3",
-    "gulp": "^4.0.2",
-    "gulp-eslint": "^6.0.0",
-    "gulp-notify": "^3.2.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
   }
 }
